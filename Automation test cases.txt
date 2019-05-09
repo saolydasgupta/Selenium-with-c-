@@ -1,0 +1,24 @@
+driver.FindElement(By.XPath("//*[@id='container']/div/div/a")).Click();
+            Thread.Sleep(1000);
+            driver.Navigate().GoToUrl("https://appetize.io/app/j93e0kwhmvfxanv4j62geb88hm?device=nexus5&scale=75&orientation=portrait&osVersion=7.1");
+            driver. WaitUntilElementIsDisplayed(By.XPath("//*[@id='navbar - collapse - 1']/span[2]/ul/li[2]/a"), 10);
+            driver.FindElement(By.XPath("//*[@id='navbar - collapse - 1']/span[2]/ul/li[2]/a")).Click();
+
+C:\Users\Saoly.Dasgupta\source\repos\Avid App\packages\Selenium.Support.3.5.2\lib\net40\WebDriver.Support.dll
+
+/html/body/main/div/section/div/div/div/div[2]/span/a
+
+//*[@id="navbar-collapse-1"]/span[2]/ul/li[2]/a
+
+/html/body/main/div/section/div/div/div/div[1]/form/div/span/input
+
+//*[@id="buttonContainer"]/span[1]/div[2]
+
+//*[@id="1504798989087"]//*[@id="1504798989087"]
+
+//*[@id="1504798989087"]
+
+//*[@id="1504798989087"]
+//*[@id="1504801799465"]
+
+//*[@id="1504801799465"]
